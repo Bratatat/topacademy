@@ -10,11 +10,11 @@
   }
   
   .title {
-    @include very-small-title-font($color-red-normal);
+    @include very-small-title-font($color-purple-normal);
   }
   
   .shortdescription {
-    @include very-small-title-font($color-red-normal);
+    @include very-small-title-font($color-purple-normal);
   }
   
 }
