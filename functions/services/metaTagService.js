@@ -63,16 +63,16 @@ function getDefaultTags() {
 		"googlebot": "all",
 		"robots": "all",
 		// OpenGraph
-		"og:site_name": "TopAcademy",
-		"og:title": "TopAcademy",
+		"og:site_name": "TheArtOfTravelling",
+		"og:title": "TheArtOfTravelling",
 		"og:description": description,
 		"og:image": imageUrl,
 		"og:type": "website",
 		// Twitter
-		"twitter:site": "@TopAcademy",
+		"twitter:site": "@TheArtOfTravelling",
 		"twitter:card": "summary_large_image",
 		"twitter:image": imageUrl,
-		"twitter:title": "TopAcademy",
+		"twitter:title": "TheArtOfTravelling",
 		"twitter:description": description
 	};
 }
