@@ -37,7 +37,7 @@ export default class HeadComponent extends Component {
 		this.setState({
 			loaded: document.readyState === "complete"
 		});
-		
+
 		document.addEventListener("readystatechange", () => {
 			this.setState({
 				loaded: document.readyState === "complete"
@@ -47,16 +47,14 @@ export default class HeadComponent extends Component {
 	}
 
 	render() {
-		const gasource = "https://www.googletagmanager.com/gtag/js?id="+process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS;
+		const gasource = "https://www.googletagmanager.com/gtag/js?id=" + process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS;
 		return <>
 			<Head>
 				<link rel="preconnect" href="https://fonts.googleapis.com" />
-				<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+				<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
 				<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
 				<meta lang="en" />
-				<link rel="icon" href="/images/logo/favicon@32x.png" />
-				<link rel="alternate icon" href="/images/logo/favicon.svg" />
-				<link rel="apple-touch-icon" href="/images/logo/favicon@180x.png" />
+				<link rel="icon" href="/images/logo/boat.png" />
 				<link rel="dns-prefetch" href="https://cdn.materialdesignicons.com" />
 				{this.props.socialTags && Object.entries(this.props.socialTags).map(getTagElement)}
 				{this.state.loaded && <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@3.9.97/css/materialdesignicons.min.css" />}
