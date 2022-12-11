@@ -6,7 +6,7 @@
   display: grid;
   grid-row-gap: 25px;
   margin-bottom: 30px;
-  margin-left: 18px;
+  margin-left: 10px;
   margin-right: 17px;
 
   &--with-navigator {
@@ -19,7 +19,7 @@
 
   &__image-container {
     width: auto;
-    max-width: 400px;
+    max-width: 800px;
     background-color: $color-purple-light;
 
     &--reverse {
