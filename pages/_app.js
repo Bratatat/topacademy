@@ -24,6 +24,7 @@ import TwoCol from '../components/layoutComponents/TwoCol/TwoCol';
 import ThreeCol from '../components/layoutComponents/ThreeCol/ThreeCol';
 import ImageCarousel from '../components/genericComponents/ImageCarousel/ImageCarousel';
 import Location from '../components/specificComponents/Location/Location';
+import Jobs from '../components/specificComponents/Jobs/Jobs';
 
 
 const components = {
@@ -43,7 +44,8 @@ const components = {
   twocol: TwoCol,
   threecol: ThreeCol,
   imagecarousel: ImageCarousel,
-  location: Location
+  location: Location,
+  jobs: Jobs,
 };
 
 storyblokInit({

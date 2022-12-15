@@ -1,0 +1,42 @@
+@import "../../../styles/colors.scss";
+@import "../../../styles/font-mixins.scss";
+
+
+.jobitem {
+  // margin: 40px 0;
+  margin: 70px;
+
+}
+
+.jobheader {
+  margin-bottom: 20px;
+}
+
+.jobbutton {
+    @include small-title-font($color-white-very-light);
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    background-color: $color-red-light;
+    border-radius: 20px;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.jobitemcontent {
+  font-size: 16x;
+  border-radius: 20px;
+  padding: 5px 10px;
+  margin-right: 20px;
+  @include small-text-font($color-red-normal);
+}
+
+.jobtitle {
+  @include title-font($color-red-normal);
+}
